@@ -268,6 +268,9 @@ func (router *SettingsRouter) getSettingType(name string) SettingType {
 	if name == SettingMaxHoursBeforeDelete.Name {
 		return SettingMaxHoursBeforeDelete.Type
 	}
+	if name == SettingMinBookingDurationHours.Name {
+		return SettingMinBookingDurationHours.Type
+	}
 	return 0
 }
 
