@@ -582,6 +582,10 @@ func TestBookingsDeleteForeign(t *testing.T) {
 	checkTestResponseCode(t, http.StatusForbidden, res.Code)
 }
 
+func TestBookingMinHours(t *testing.T) {
+
+}
+
 func TestBookingsDeleteSpaceAdmin(t *testing.T) {
 	clearTestDB()
 	org := createTestOrg("test.com")
