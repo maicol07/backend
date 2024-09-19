@@ -185,6 +185,7 @@ func (router *SettingsRouter) isValidSettingNameReadPublic(name string) bool {
 		name == SettingMaxDaysInAdvance.Name ||
 		name == SettingMaxHoursBeforeDelete.Name ||
 		name == SettingMaxBookingDurationHours.Name ||
+		name == SettingMinBookingDurationHours.Name ||
 		name == SettingShowNames.Name ||
 		name == SettingAllowBookingsNonExistingUsers.Name ||
 		name == SettingDailyBasisBooking.Name ||
