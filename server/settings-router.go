@@ -183,6 +183,7 @@ func (router *SettingsRouter) isValidSettingNameReadPublic(name string) bool {
 	if name == SettingMaxBookingsPerUser.Name ||
 		name == SettingMaxConcurrentBookingsPerUser.Name ||
 		name == SettingMaxDaysInAdvance.Name ||
+		name == SettingMaxHoursBeforeDelete.Name ||
 		name == SettingMaxBookingDurationHours.Name ||
 		name == SettingShowNames.Name ||
 		name == SettingAllowBookingsNonExistingUsers.Name ||
